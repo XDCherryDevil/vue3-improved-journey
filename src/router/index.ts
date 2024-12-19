@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import BpmnModeler from '../views/bpmn-modeler.vue'
+import Home from '../views/home.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'home',
-    component: BpmnModeler
+    name: 'Home',
+    component: Home
   },
 ]
 
